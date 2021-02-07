@@ -1,0 +1,28 @@
+//
+// Footer
+// --------------------------------------------------
+
+footer{
+  margin: 45px 0;
+  text-align: center;
+
+  & a{
+    display: block;
+    margin: 15px 0 0;
+  }
+
+}
+
+ul.policy-link{
+  display: inline-block;
+
+  & li{
+    margin: 0 12px;
+    float: left;
+  }
+
+  & a{
+    margin: 0;
+  }
+
+}

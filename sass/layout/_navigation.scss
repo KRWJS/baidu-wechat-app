@@ -1,0 +1,47 @@
+//
+// Navigation
+// --------------------------------------------------
+
+.navbar{
+  padding: 15px 0;
+  border-bottom: 1px solid #e6e6e6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: $white-base;
+  transition: all 0.2s ease-in-out;
+  z-index: 9999;
+
+  &.nav-up {
+    top: -10px;
+  }
+
+}
+
+img.logo-image{
+  transition: height 0.3s ease-out;
+
+  &.nav-up{
+    height: 30px !important;
+  }
+
+}
+
+ul.nav{
+  display: inline-block;
+  width: 100%;
+  padding-top: 15px;
+
+  & li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+
+    & a{
+      color: $black-base;
+    }
+
+  }
+
+}

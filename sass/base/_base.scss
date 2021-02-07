@@ -1,0 +1,26 @@
+//
+// Base
+// --------------------------------------------------
+
+body{
+  background: $white-base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  margin-top: 130px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus{
+  outline: none;
+  text-decoration: none;
+}
+
+a{
+  @include transition-duration(0.3s);
+  cursor: pointer;
+}

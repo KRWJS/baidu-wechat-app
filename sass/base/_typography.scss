@@ -1,0 +1,51 @@
+//
+// Typography
+// --------------------------------------------------
+
+h2,
+h3,
+h4{
+  font-weight: bold;
+}
+
+h3,
+h4{
+  font-size: 16px;
+}
+
+h2{
+  font-size: 20px;
+  color: $blue-base;
+  margin: 25px 0;
+  line-height: 24px;
+}
+
+h3{
+  color: $black-base;
+}
+
+h4{
+  color: $blue-base;
+  margin: 10px 0 0;
+}
+
+p{
+  font-size: 14px;
+  color: $black-base;
+  line-height: 24px;
+}
+
+footer{
+  font-weight: bold;
+  font-size: 14px;
+
+  & p,
+  & .policy-link li a{
+    color: $grey-base;
+  }
+
+  & a{
+    color: $blue-base;
+  }
+
+}

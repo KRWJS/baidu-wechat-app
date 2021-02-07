@@ -1,0 +1,44 @@
+//
+// Panel
+// --------------------------------------------------
+
+.winner-panel{
+  display: block;
+  position: relative;
+  margin-top: 40px;
+}
+
+.winner-panel__wrapper{
+  @include box-shadow(0, 1px, 10px, $grey-base);
+  vertical-align: middle;
+  margin: 5px 0;
+  padding: 20px;
+  text-align: left;
+  display: block;
+  position: relative;
+
+  & .number,
+  & .winner{
+    display: inline-block;
+  }
+
+  & .number{
+    float: left;
+    width: 15%;
+    font-size: 18px;
+    color: $blue-base;
+    font-weight: bold;
+    line-height: 40px;
+  }
+
+  & .winner{
+    width: 85%;
+
+    & p,
+    & h3{
+      line-height: 20px;
+    }
+
+  }
+
+}
